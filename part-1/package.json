@@ -1,0 +1,16 @@
+{
+  "name": "testing-part-1",
+  "version": "1.0.0",
+  "description": "simple testing with jest",
+  "scripts": {
+    "test": "jest --watchAll --verbose"
+  },
+  "author": "Conor Ward",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  },
+  "dependencies": {
+    "@types/jest": "^27.4.0"
+  }
+}
