@@ -1,16 +1,23 @@
 {
   "name": "testing-part-1",
   "version": "1.0.0",
-  "description": "simple testing with jest",
+  "description": "simple testing example with jest",
+  "main": "index.js",
   "scripts": {
     "test": "jest --watchAll --verbose"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conorjamesward/testing.git"
+  },
   "author": "Conor Ward",
   "license": "ISC",
-  "devDependencies": {
-    "jest": "^27.4.7"
+  "bugs": {
+    "url": "https://github.com/conorjamesward/testing/issues"
   },
+  "homepage": "https://github.com/conorjamesward/testing#readme",
   "dependencies": {
-    "@types/jest": "^27.4.0"
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.7"
   }
 }
